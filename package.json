@@ -1,0 +1,23 @@
+{
+  "name": "eleventy_flat_data",
+  "version": "1.0.0",
+  "description": "Testing Flat Data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cfjedimaster/eleventy_flat_data.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cfjedimaster/eleventy_flat_data/issues"
+  },
+  "homepage": "https://github.com/cfjedimaster/eleventy_flat_data#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^0.12.1"
+  }
+}
