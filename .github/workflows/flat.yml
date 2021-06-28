@@ -6,7 +6,7 @@ on:
   push:
     paths:
       - .github/workflows/flat.yml
-      - ./fixweather.js
+      - fixweather.js
 jobs:
   scheduled:
     runs-on: ubuntu-latest
