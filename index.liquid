@@ -1,4 +1,20 @@
 <h1>Eleventy Testing Flat File</h1>
 
-Weather: 
+Weather in raw JSON:<br/>
+<pre>
 {{ weather }}
+</pre>
+
+<p>
+Our latest temperature is {{ weather.temperature }} F with a forecast of: {{ weather.description }}.
+</p>
+
+<p>
+Here's the forecast for the next three days:
+</p>
+
+<ul>
+{% for report in weather.forecast %}
+<li>Temperature of {{ report.temperature }} F.</li>
+{% endfor %}
+</ul>
